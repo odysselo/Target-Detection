@@ -2,6 +2,11 @@
 
 本仓库是《实验三：目标检测》的完整代码与报告，包含 **Faster R-CNN 从零实现**、**YOLOv1 实现（对齐开源仓库）**、**YOLOv5 改进点对照实现**，以及可一键跑通的训练 / 推理 / 耗时对比脚本。
 
+> 仓库地址：<https://github.com/odysselo/Target-Detection>
+> 实验报告：[`docs/实验报告.md`](docs/实验报告.md) ｜ Word 版 [`docs/实验报告.docx`](docs/实验报告.docx)
+>
+> 注：训练好的权重（`weights/*.pth`，约 580 MB）未入库，执行一次 `demo/train_demo.py` 即可重新生成（CPU 约 16 分钟）。
+
 ## 目录结构
 
 ```text

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 训练产物（体积大，可复现，不入库）
+weights/*.pth
+weights/*.pt
+
+# 本地工具目录
+.workbuddy-ai/
+.idea/
+.vscode/
+.DS_Store
+
+# 日志（训练日志保留在 logs/，这里的 *.log 指临时输出）
+/*.log

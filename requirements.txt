@@ -1,0 +1,11 @@
+# 实验三 目标检测 —— 依赖
+# 已在 Python 3.13.9 / Windows 11 / CPU 环境下验证
+
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+opencv-python>=4.8
+matplotlib>=3.7
+
+# 选做（YOLO26 推理）
+# ultralytics>=8.3
